@@ -1,4 +1,4 @@
-`nmap -sn 192.168.2.0/24` 
+`nmap -sn 192.168.0.0/16` 
 สแกนหาอุปกรณ์ทั้งหมดในช่วง IP 192.168.1.0 ถึง 192.168.1.255 (ใช้หาเครื่อง)
 
 `nmap -Pn 10.4.19.218`
@@ -21,3 +21,15 @@
 
 `-T` ปรับความเร็ว
 T0 (ช้ามากกก) T3 default T5 ไวจัด
+
+`nmap target.ine.local -sV -sC`
+คำสั่งทั่วไป (web ไม่มี http นะ)
+
+`dirb http://target.ine.local` 
+scan dir ทั่วไป
+
+`dirb http://target.ine.local -w /usr/share/dirb/wordlists/big.txt -X .bak,.tar.gz,.zip,.sql,.bak.zip`
+สแกนหาไฟล์ backup
+
+`httrack http://target.ine.local -O target.html` 
+mirror 
