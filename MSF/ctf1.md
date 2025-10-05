@@ -2,7 +2,7 @@
 `nmap --top-ports 65536 target.ine.local -sV`
 1433/tcp  open  ms-sql-s           Microsoft SQL Server 2012 11.00.6020; SP3
 
-
+`msfconsole`
 `search MSSQL 2012`
 exploit/windows/mssql/mssql_clr_payload      1999-01-01       excellent  Yes    Microsoft SQL Server Clr Stored Procedure Payload Execution
 
