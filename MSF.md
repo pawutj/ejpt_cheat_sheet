@@ -32,3 +32,15 @@ RHOSTS -> เป้าหมาย LHOST -> เครื่องเรา
 `run`
 test put method
 
+# MYSQL ENUM
+auxiliary/scanner/mysql/mysql_version
+auxiliary/scanner/mysql/mysql_login
+auxiliary/admin/mysql/mysql_enum
+auxiliary/admin/mysql/mysql_sql
+auxiliary/scanner/mysql/mysql_file_enum
+auxiliary/scanner/mysql/mysql_hashdump
+auxiliary/scanner/mysql/mysql_schemadump
+auxiliary/scanner/mysql/mysql_writable_dirs
+
+
+# Armitage

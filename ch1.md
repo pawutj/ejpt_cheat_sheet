@@ -7,6 +7,9 @@
 `nmap -Pn -p 80,443 10.4.19.218`
 บังคับสแกน port 80,443
 
+`nmap --top-ports 65536 demo.ine.local`
+สแกนไวๆ 
+
 `nmap -Pn -F 10.4.19.218`
 สแกนพอร์ทยอดนิยม 100 port
 
